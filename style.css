@@ -1,73 +1,67 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
 body{
-   background-color: #344a72;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
-}
-.sign-up{
-width: 360px;
- height: 620px;
-margin: auto;
-background-color: white;
-border-radius: 3px;
-
-}
-
-.login-box{
-   width: 360px;
-   height: 295px;
-   margin: auto;
-   background-color: white;
-   border-radius: 3px;
-}
-h1{
+   background-color: #0fdce7;
    text-align: center;
-   padding-top: 15px;
+   /* background-image: url("cat1.jpg.jpg"); */
+
 }
-h4{
-   text-align: center;
-}
-form{
-   width: 300px;
-   margin-left: 20px;
-}
-form label{
+.container{
+   height:70vh;
    display: flex;
-   margin-top: 20px;
-   font-size: 18px;
-
+   justify-content: center;
+   align-items: center;
 }
-form input{
-   width: 100%;
-   padding: 7px;
+.game{
+   height: 60vmin;
+   width: 60vmin;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1.5vmin;
+}
+.box{
+   height: 18vmin;
+   width: 18vmin;
+   border-radius: 1rem;
    border: none;
-   border: 1px solid gray;
-   border-radius: 6px;
-   outline: none;
+   box-shadow: 0 0 1rem rgba(0 0 0 0.3);
+   font-size: 8vmin;
+   color: #b0413e;
+   background-color: #ffffc7; 
 }
-input[type="button"]
-{
-   width: 320px;
-   height: 35px;
-   margin-top: 20px;
+#reset-btn{
+   padding: 1rem;
+   font-size: 1.25rem;
+   background-color: #191913;
+   color: #fff;
+   border-radius: 1rem;
+   border-radius: 1rem;
    border: none;
-   background-color: blueviolet;
-   color: white;
-   font-size: 18px;
 }
-p{
-   text-align: center;
-   padding-top: 20px;
-   font-size: 15px;
+#new-btn{
+   padding: 1rem;
+   font-size: 1.25rem;
+   background-color: #191913;
+   color: #fff;
+   border-radius: 1rem;
+   border: none;
 }
-.para-2{
-   text-align: center;
-   color: white;
-   font-size: 15px;
-   margin-top: -10px;
-
+#msg{
+   color: #ffffc7;
+   font-size: 5vmin;
 }
-.para-2 a{
-   color: #49c;
+.msg-container{
+   height: 100vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 4rem;
 }
-
+ .hide{
+   display: none;
+} 
